@@ -1,0 +1,171 @@
+@font-face
+{
+	font-family:'digital';
+	src:url('../res/digital.ttf');
+}
+
+@font-face
+{
+	font-family:'terminal';
+	src:url('../res/terminal.ttf');
+}
+
+@font-face
+{
+	font-family:'hacked';
+	src:url('../res/hacked.ttf');
+}
+
+@keyframes show_title
+{
+	0%{opacity: 0;}
+	12%{opacity: .5;}
+	24%{opacity: .1;}
+	28%{opacity: .7;}
+	30%{opacity: .1;}
+	35%{opacity: .6;}
+	50%{opacity: .1;}
+	65%{opacity: .9;}
+	70%{opacity: .5;}
+	78%{opacity: .5;}
+	86%{opacity: .7;}
+	90%{opacity: .5;}
+	100%{opacity: 1;}
+}
+
+@keyframes chng_clr
+{
+	0%{color:#000000;}
+	50%{color:#09B9AE;}
+	100%{color:#C31111;}
+}
+
+@keyframes slide
+{
+	0%{ left:-10%; opacity: 1; }
+	10%{ left:-1%; opacity: 1; }
+	70%{ left:-1%; opacity: 1; }
+	100%{left:-50%; opacity: 1;}
+}
+
+body
+{
+	text-align: center;
+	background-color: #e1e1e1;
+	font-family: terminal;
+	font-size: 120%;
+}
+
+table
+{
+	width: 50%;
+	background-color: #000000;
+	padding: 2px 2px 2px 2px;
+	position: relative;
+	left: 25%;
+}
+
+
+tr
+{
+	height: 30px;
+	//background-color: #eeeeee;
+}
+
+.tr_odd
+{
+	background-color: #eeeeee;
+}
+.tr_even
+{
+	background-color: #cccccc;
+}
+
+th
+{
+	background-color: #BC99FB;
+	font-family: hacked;
+}
+.header
+{
+	padding: 20px 10px 20px 10px;
+	font-family: hacked;
+	font-size: 250%;
+	animation-name: show_title;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+
+.set_new
+{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	padding: 20px 0px 30px 0px;
+	text-align: center;
+	background-color: #999999;
+	font-size: 130%;
+	opacity: 1;
+	z-index: 5;
+}
+
+#ip_new
+{
+	padding: 5px 5px 5px 10px;
+	font-family: terminal;
+	width: 30%;
+}
+
+#i_sc
+{
+	padding: 5px 5px 5px 10px;
+	font-family: terminal;
+	width: 5%;
+}
+
+.msg_s
+{
+	position: fixed;
+	bottom: 30%;
+	width: 20%;
+	left: -50%;
+	padding: 15px 0px 15px 0px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: #19B788;
+	animation-name: slide;
+	animation-duration: 3s;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.msg_f
+{
+	position: fixed;
+	bottom: 30%;
+	width: 20%;
+	left: -50%;
+	padding: 15px 0px 15px 0px;
+	box-shadow: 5px 5px 5px gray;
+	background-color: #EB4A4A;
+	animation-name: slide;
+	animation-duration: 9s;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#back
+{
+	position: fixed;
+	top: 15%;
+	right: 3%;
+	padding: 6px 15px 6px 15px;
+	background-color: #787878;
+	color:#ffffff;
+	border-radius: 10px;
+	z-index: 6;
+}
+
+#back:hover
+{
+	color:#0044aa;
+}

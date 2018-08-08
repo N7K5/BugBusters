@@ -1,0 +1,89 @@
+#background
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 0%;
+	opacity: .8;
+	z-index:-1;
+	filter:blur(5px);
+}
+
+.header
+{
+	position: fixed;
+	top: 10%;
+	left: 20%;
+	width: 60%;
+	background-color: white;
+	font-weight: bold;
+	font-size: 130%;
+	border:solid;
+	border-radius: 15px;
+	text-align: center;
+	padding:20px 10px 20px 10px;
+	z-index: 1;
+}
+
+#login_form
+{
+	position: fixed;
+	top: 40%;
+	left: 20%;
+	width: 60%;
+	background-color: white;
+	font-weight: bold;
+	font-size: 130%;
+	border:solid;
+	border-radius: 15px;
+	text-align: center;
+	padding:40px 10px 40px 10px;
+	z-index: 2;
+}
+
+#login_btn
+{
+	position: relative;
+	top: 8px;
+	display: inline-block;
+ 	padding: 6px 10px;
+ 	font-size: 100%;
+ 	cursor: pointer;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	outline: none;
+ 	color: #fff;
+ 	background-color: #4CAF50;
+ 	border: none;
+ 	border-radius: 8px;
+ 	box-shadow: 0 5px #999;
+
+}
+
+#login_btn:hover {background-color: #3e8e41}
+
+#login_btn:active {
+	background-color: #2e6e21;
+	box-shadow: 0 1px #666;
+	transform: translateY(4px);
+}
+
+#ip_userId, #ip_password
+{
+	padding: 5px 5px;
+	border-radius: 5px;
+	border-color: black;
+	padding-left: 10px;
+}
+
+#score
+{
+	position: fixed;
+	top: 1%;
+	right: -1%;
+	padding: 10px 20px 10px 20px;
+	background-color: #999999;
+	box-shadow: 5px 5px 5px gray;
+	font-size: 130%;
+	font-weight: bold;
+}

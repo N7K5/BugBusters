@@ -1,0 +1,89 @@
+.background
+{
+	position: fixed;
+	top: -10px;
+	left: -10px;
+	filter: blur(1px);
+	z-index: -1;
+	opacity: .9;
+}
+
+.background_image
+{
+
+}
+
+#header
+{
+	position: fixed;
+	top: 5%;
+	left: 20%;
+	width: 60%;
+	padding:20px 5px 20px 5px;
+	text-align: center;
+	background-color: white;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 130%;
+}
+
+#main_form
+{
+	position: fixed;
+	top: 50%;
+	left: 30%;
+	width: 38%;
+	padding:20px 5px 20px 5px;
+	text-align: center;
+	background-color: white;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+#ip_name, #ip_pass
+{
+	padding:5px 3px 5px 3px;
+	border:solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+#login_btn
+{
+	position: relative;
+	top: 8px;
+	display: inline-block;
+ 	padding: 6px 10px;
+ 	font-size: 100%;
+ 	cursor: pointer;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	outline: none;
+ 	color: #fff;
+ 	background-color: #4CAF50;
+ 	border: none;
+ 	border-radius: 8px;
+ 	box-shadow: 0 5px #999;
+
+}
+
+#login_btn:hover {background-color: #3e8e41}
+
+#login_btn:active {
+	background-color: #2e6e21;
+	box-shadow: 0 1px #666;
+	transform: translateY(4px);
+}
+
+#score
+{
+	position: fixed;
+	top: 1%;
+	right: -1%;
+	padding: 10px 20px 10px 20px;
+	background-color: #999999;
+	box-shadow: 5px 5px 5px gray;
+	font-size: 130%;
+	font-weight: bold;
+}

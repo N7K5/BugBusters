@@ -1,0 +1,107 @@
+@keyframes slide
+{
+	0%{ bottom:10%; opacity: 1; }
+	70%{ bottom:10%; opacity: .5; }
+	100%{bottom:-50%;}
+}
+
+body
+{
+	background-color: #dddddd;
+	text-align: center;
+	color:#E3E3E3;
+}
+
+#header
+{
+	padding: 90px 10px 20px 10px;
+	font-size: 120%;
+
+}
+#head_1
+{
+	font-weight: bold;
+	font-size: 150%;
+}
+
+#mainform
+{
+	background-color: #bbbbbb;
+	padding:10px 5px 10px 5px;
+	font-weight: bold;
+	font-size: 120%;
+	width: 50%;
+	position: relative;
+	left: 25%;
+	top: 70px;
+	color:#000000;
+}
+
+#ip_name, #ip_pass
+{
+	background-color: #eeeeee;
+	border-style: inset;
+	padding: 2px 2px 2px 4px;
+}
+
+.wrong
+{
+	position: fixed;
+	padding: 15px 0px 15px 0px;
+	background-color: #F14C4C;
+	font-size: 170%;
+	width: 70%;
+	left: 15%;
+	bottom: -50%;
+	opacity: .9;
+	border-radius: 20px;
+	animation-name: slide;
+	animation-duration: 9s;
+	animation-iteration-count: 1;
+}
+
+
+#ip_submit {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px #888;
+}
+
+#ip_submit:hover {background-color: #3e8e41}
+
+#ip_submit:active {
+  background-color: #2e6e21;
+  box-shadow: 0 1px #555;
+  transform: translateY(4px);
+}
+#score
+{
+	position: fixed;
+	top: 1%;
+	right: -1%;
+	padding: 10px 20px 10px 20px;
+	background-color: #999999;
+	box-shadow: 5px 5px 5px gray;
+	font-size: 130%;
+	font-weight: bold;
+}
+
+#background
+{
+	position: fixed;
+	top: 0px;
+	left: 10%;
+	height: 100%;
+	width: 80%;
+	z-index: -10;
+	filter:blur(10px);
+}
