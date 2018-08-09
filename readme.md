@@ -4,7 +4,7 @@
 ![The Main page image](https://raw.githubusercontent.com/N7K5/BugBusters/master/help_icons/help_000.png "Login image")
 
 ## to use this, you need an apache http server with mysql...
-###### I used xampp software [xampp download link](https://www.apachefriends.org/index.html "Get xampp here") for the same.
+###### I used [xampp software](https://www.apachefriends.org/index.html "Get xampp here") for the same.
 
 
 ## To use the website as admin, you need to do the folowing:-
